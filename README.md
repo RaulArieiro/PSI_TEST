@@ -2,7 +2,7 @@
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Raúl 
 
 Teste termina às 09:40 (Turno 1) / 13:25 (Turno 2).
 
@@ -17,7 +17,7 @@ Não desformates o documento.
 
 P1 - Resposta
 
-    ...
+    A mensagens que vai aparecer é \n®\n pois mesmo aceitando o simbolo não aceita os comandos ficando de forma literal por isso aparece os \n não muda de linha
 
 ### 2. Considera o seguinte código
 
@@ -29,17 +29,28 @@ P1 - Resposta
 ### Indica a correção necessária para que o código não apresente erros. Explica porque foi necessário fazer essa correção
 
 P2 - Resposta
+float f = 12.645; estava a dar um erro pois leterais float precisa de f so fim do numero aqui a correção float f = 12.645; .
 
-    ...
+ 
 
 ### 3. Escreve um programa que solicite uma string ao utilizador, e seguidamente a mostre no ecrã de forma invertida
 
 P3 - Resposta
 
-    ...
+      string array;
+            Console.WriteLine("Escreva ");
+            array = Console.ReadLine();
+            
+
+            for(int i = array.Length; 0<i ; i--)    
+            {
+                Console.WriteLine($"{array[i]}");
+
+            }
+            
 
 ### 4. Quais são os comandos Git para configurares, de uma forma global, o teu **nome** e **email** para realização de *commits*? E se essa configuração for apenas para um repositório?
 
 P4 - Resposta
 
-    ...
+    
